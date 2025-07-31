@@ -1,9 +1,17 @@
 git add = adiciona para deixar commitavel.
+git add . = adiciona todos para deixar commitavel.
 git status = mostra os arquivos e a situação atual de cada um.
 git diff = mostra as auterações feitas. 
-git commit = commita localmente os arquivos.
+git commit -m "" = commita localmente os arquivos.
+git commit -am "" = adiciona e commita localmente os arquivos.
 git restore --staged = retira o arquivo que estiver depois do staged, e deixa fora da lista para commit.
 git branch -M = renomeia a branch.
 git remote add origin = determina com qual repositório vai se comunicar, a url que estiver na frente do origin.
 git remote get-url origin = mostra o repositório que esta sendo usado.
 git blame = mostra as informações de quem e quando alterou as linhas de código. 
+git checkout -b = cria uma nova branch.
+git checkout = muda para a branch que estiver escrita.
+git push = sobe os commits para o github.
+git push --set-upstream origin = sobe os commits de uma branch especifica para o github.
+git pull = atualiza o main e adicona os pulls requests feitos no github. 
+ 
